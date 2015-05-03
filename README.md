@@ -3,6 +3,7 @@
 http://www.pocketvj.com
 
 This file is used to control the PocketVJ over the webbrowser.
+
 Clone everything into the `/var/www/` directory.
 
 This file is only useful if you use the omxplayer-sync https://github.com/turingmachine/omxplayer-sync script.
