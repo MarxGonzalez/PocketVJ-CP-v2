@@ -94,3 +94,16 @@ apt-get -y install expect expect-dev
 If you want to use PiMapper you must install openframeworks: http://forum.openframeworks.cc/t/raspberry-pi-2-setup-guide/18690
 and then install and compile PiMapper https://github.com/kr15h/ofxPiMapper, then you have to simulate a fake keyboard to unleash the remote control, see here: 
 http://www.fsays.eu/Blogging/Blog/Details/23
+
+
+Copyright by http://magdesign.ch
+
+
+Firmware written by: Simon Josi, http://www.yokto.net
+Pi-Mapper written by: Krisjanis Rijnieks, https://github.com/kr15h/
+Virtual Keyboard written by: Erwin van Dijk, http://www.fsays.eu/
+Testmovie by: Manuel Berner, http://towerbus.ch/
+Testaudio by: Marcel Bieri, https://facebook.com/casashowband
+
+Idea, support and concept by: Marc-André Gasser, http://magdesign.ch/
+Please support this project!
