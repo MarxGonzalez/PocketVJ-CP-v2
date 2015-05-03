@@ -1,0 +1,25 @@
+
+***********************************
+***  PocketVJ 2.0 Roadmap       ***
+***********************************
+
+- Make sync script to act faster at beginning of video
+- Make sync script compatible with video mapper
+- Fix Video Mapper input texture issue
+- Automaticly convert incompatible movies
+- Master Slave auto-detection
+- Add pause function
+- Add screenshot function
+- Integrate LPMT
+- Integrate RaspiVJ function for videomixing
+- OSC support
+- Artnet output for lightning control
+- DMX Creator bridge
+- Add new HD testfiles by Manuel Berner
+- Start all functions without reboot
+ 
+
+Copyright by magdesign.ch / pocketvj.com
+Firmware written by: Simon Josi, http://www.yokto.net
+Idea, support and concept by: Marc-André Gasser, magdesign.ch
+Please support this project!
