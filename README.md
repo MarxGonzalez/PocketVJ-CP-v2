@@ -109,5 +109,7 @@ Testmovie by: Manuel Berner, http://towerbus.ch/
 
 Testaudio by: Marcel Bieri, https://facebook.com/casashowband
 
-Idea, support and concept by: Marc-André Gasser, http://magdesign.ch/
+Idea, support and concept by: Marc-André Gasser, 
+http://magdesign.ch/
+
 Please support this project!
