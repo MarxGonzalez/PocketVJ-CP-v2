@@ -1,0 +1,6 @@
+mount -t auto /dev/sda1 /media/usb
+mount -t auto /dev/sda2 /media/usb
+cat /etc/motd; sleep 1
+su -s /bin/bash -c startx pi&
+service isc-dhcp-server restart
+exit 0
