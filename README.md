@@ -91,5 +91,5 @@ apt-get -y install xdotool
 apt-get -y install expect expect-dev
 
 If you want to use PiMapper you must install openframeworks: http://forum.openframeworks.cc/t/raspberry-pi-2-setup-guide/18690
-and compile PiMapper, then you have to simulate a fake keyboard, see here: 
+and then insatall and compile PiMapper https://github.com/kr15h/ofxPiMapper, then you have to simulate a fake keyboard to unleash the remote control, see here: 
 http://www.fsays.eu/Blogging/Blog/Details/23
