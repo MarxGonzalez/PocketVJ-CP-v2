@@ -100,9 +100,13 @@ Copyright by http://magdesign.ch
 
 
 Firmware written by: Simon Josi, http://www.yokto.net
+
 Pi-Mapper written by: Krisjanis Rijnieks, https://github.com/kr15h/
+
 Virtual Keyboard written by: Erwin van Dijk, http://www.fsays.eu/
+
 Testmovie by: Manuel Berner, http://towerbus.ch/
+
 Testaudio by: Marcel Bieri, https://facebook.com/casashowband
 
 Idea, support and concept by: Marc-André Gasser, http://magdesign.ch/
