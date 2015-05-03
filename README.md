@@ -19,6 +19,25 @@ The imagefiles have to be stored in `/media/internal/images`
 
 We recommend to use your RPi as a Hotspot, setup as described here: http://elinux.org/RPI-Wireless-Hotspot
 
+###To do:
+- Create a .torrent image for download (anyone can tell me where to put a 16GB image as torrent?)
+- Make sync script to act faster at beginning of video
+- Make sync script compatible with video mapper
+- Automaticly detect when slave is connected while already playing (ifplug.d)
+- Fix Video Mapper input texture issue
+- Automaticly convert incompatible movies
+- Master Slave auto-detection
+- Add pause function
+- Add screenshot function
+- Integrate LPMT
+- Integrate RaspiVJ function for videomixing
+- OSC support
+- Artnet output for lightning control
+- DMX Creator bridge
+- Add new HD testfiles by Manuel Berner
+- Start all functions without reboot
+
+
 ###Dependencies to install:
 
 apt-get -y install ntfs-3g
