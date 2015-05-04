@@ -8,7 +8,7 @@
 - Fix Video Mapper input texture issue
 - Automaticly convert incompatible movies
 - Master Slave auto-detection
-- Add pause function
+- Add pause function (fbcat => make screenshots)
 - Add screenshot function
 - Integrate LPMT
 - Integrate RaspiVJ function for videomixing
