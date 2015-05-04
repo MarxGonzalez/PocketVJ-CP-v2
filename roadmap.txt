@@ -6,6 +6,7 @@
 - Make sync script to act faster at beginning of video
 - Make sync script compatible with video mapper
 - Fix Video Mapper input texture issue
+- integrate TCPSyphon client
 - Automaticly convert incompatible movies
 - Master Slave auto-detection
 - Add pause function (fbcat => make screenshots)
