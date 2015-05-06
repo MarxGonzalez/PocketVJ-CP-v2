@@ -9,15 +9,15 @@
 - Integrate TCPSyphon client
 - Automaticly convert incompatible movies
 - Master Slave auto-detection
-- Add pause function (fbcat => make screenshots)
-- Add screenshot function
+- Add pause function 
+- Add screenshot function (fbcat => make screenshots)
 - Integrate LPMT
 - Integrate RaspiVJ function for videomixing
 - OSC support
 - Artnet output for lightning control
 - DMX Creator bridge
-- Add new HD testfiles by Manuel Berner
 - Start all functions without reboot
+- Add new HD testfiles by Manuel Berner
  
 
 Copyright by magdesign.ch / pocketvj.com
