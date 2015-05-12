@@ -7,7 +7,8 @@
 - Make a function to display IP addresses
 - Make sync script compatible with video mapper
 - Fix Video Mapper input texture issue
-- Remote mouse for mapping
+- Add bezier curves to mapping mesh (useful for ultra short throw projectors)
+- Remote mouse for mapping (browser, Java)
 - Release the P-Hat extension
 - Integrate TCPSyphon client
 - Automaticly convert incompatible movies
