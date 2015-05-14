@@ -10,7 +10,7 @@
 - Add bezier curves to mapping mesh (useful for ultra short throw projectors)
 - Remote mouse for mapping (browser, Java)
 - Release the P-Hat extension
-- Integrate TCPSyphon client
+- Integrate TCPSyphon client (http://techlife.sg/TCPSClient/index.html)
 - Automaticly convert incompatible movies
 - Master Slave auto-detection
 - Add pause function 
