@@ -7,6 +7,7 @@ if ($_GET['action'] == 'stop') {
 	system("sudo /var/www/sync/omxkill.py");
 	system("sudo /var/www/sync/testscreenoff.py &");
 	system("sudo killall -9 /home/pi/of_v0.8.4/addons/ofxPiMapper/example/./bin/example");
+	system("sudo killall -9 /usr/bin/TCPSClient.bin");
 
 }
 
@@ -249,6 +250,23 @@ if ($_GET['action'] == 'powerpoint') {
 	system("sudo cp /var/www/sync/rc.local.screenshare /etc/rc.local");
 }
 
+if ($_GET['action'] == 'setsyphon') {
+	$outputtext =  "set to TCPSClient";
+	system("sudo cp /var/www/sync/rc.local.syphon /etc/rc.local");
+}
+
+if ($_GET['action'] == 'ipwifi') {
+    $output = shell_exec("sudo /sbin/ifconfig -a wlan0 | awk '/(cast)/ { print $2 }' | cut -d':' -f2 | head -1");
+	$preoutputtext =  "<pre>$output</pre>";
+	$outputtext = wordwrap($preoutputtext, 51, "<br />\n");
+}
+
+if ($_GET['action'] == 'iplan') {
+    $output = shell_exec("sudo /sbin/ifconfig -a eth0 | awk '/(cast)/ { print $2 }' | cut -d':' -f2 | head -1");
+	$preoutputtext =  "<pre>$output</pre>";
+	$outputtext = wordwrap($preoutputtext, 51, "<br />\n");
+}
+
 
 //# Set Boot.conf resolution
 
@@ -347,6 +365,7 @@ if ($_GET['action'] == 'diskspace') {
 	$preoutputtext =  "<pre>$output</pre>";
 	$outputtext = wordwrap($preoutputtext, 51, "<br />\n");
 }
+
 
 //# Firmmware Stuff
 
@@ -664,6 +683,10 @@ if ($_GET['action'] == 'impressclose') {
 	$outputtext =  "Save file";
 	system("sudo /var/www/sync/impressclose");
 }
+
+
+
+
 
 
 echo $outputtext;

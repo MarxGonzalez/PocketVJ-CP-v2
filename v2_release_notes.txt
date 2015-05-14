@@ -4,6 +4,16 @@
 ***********************************
 
 
+
+Control Panel v0.71 (14.Mai 2015)
+======================================
+
+- added function to display current IP address
+- integrated TCPSClient (http://www.techlife.sg/)
+  (its beta, only use it if you can connect over RJ45!!)
+
+
+
 Control Panel v0.7 (18.April 2015)
 ======================================
 
@@ -23,8 +33,12 @@ Copyright by http://magdesign.ch
 Firmware written by: Simon Josi, http://www.yokto.net
 Pi-Mapper written by: Krisjanis Rijnieks, https://github.com/kr15h/
 Virtual Keyboard written by: Erwin van Dijk, http://www.fsays.eu/
+Impress written by the LibreOffice community, https://www.libreoffice.org
 Testmovie by: Manuel Berner, http://towerbus.ch/
 Testaudio by: Marcel Bieri, https://facebook.com/casashowband
 
-Idea, support and concept by: Marc-André Gasser, http://magdesign.ch/
-Please support this project!
+
+Idea, support and concept by: Marc-André Gasser, Berne, Switzerland
+http://magdesign.ch/
+
+Please support this project with a donation or buy a PocketVJ in the official webstore!
