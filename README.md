@@ -93,9 +93,14 @@ apt-get -y install expect expect-dev
 
 apt-get -y install libreoffice
 
+apt-get -y install libavahi-compat-libdnssd-dev
+
 If you want to use PiMapper you must install openframeworks: http://forum.openframeworks.cc/t/raspberry-pi-2-setup-guide/18690
 and then install and compile PiMapper https://github.com/kr15h/ofxPiMapper, then you have to simulate a fake keyboard to unleash the remote control, see here: 
 http://www.fsays.eu/Blogging/Blog/Details/23
+If you want to use TCPSClient, downnload it here: http://techlife.sg/TCPSClient/index.html
+put it to `/usr/bin` and make `chmod u+x TCPSClient.bin`
+Read the copyrights on their websites and make a donation!
 
 
 Copyright by http://magdesign.ch
