@@ -89,8 +89,6 @@ put it to `/usr/bin` and make `chmod u+x TCPSClient.bin`
 Read the copyrights on their websites and make a donation!
 
 
-Copyright by http://magdesign.ch
-
 
 Sync Script and Omxplayer fork written by: Simon Josi, http://www.yokto.net
 
@@ -104,7 +102,9 @@ Testmovie by: Manuel Berner, http://towerbus.ch/
 
 Testaudio by: Marcel Bieri, https://facebook.com/casashowband
 
-Idea, support and concept by: Marc-André Gasser, 
-http://magdesign.ch/
+Idea, support and concept by: Marc-André Gasser, http://magdesign.ch/
+
+
+Copyright by http://magdesign.ch
 
 Please support this project!
