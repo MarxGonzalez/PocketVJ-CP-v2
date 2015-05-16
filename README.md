@@ -98,6 +98,8 @@ Pi-Mapper written by: Krisjanis Rijnieks, https://github.com/kr15h/
 
 Virtual Keyboard written by: Erwin van Dijk, http://www.fsays.eu/
 
+TCpSyphon written by: Nozomu Miura, http://techlife.sg/
+
 Testmovie by: Manuel Berner, http://towerbus.ch/
 
 Testaudio by: Marcel Bieri, https://facebook.com/casashowband
