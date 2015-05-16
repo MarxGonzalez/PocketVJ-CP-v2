@@ -107,4 +107,4 @@ Idea, support and concept by: Marc-André Gasser, http://magdesign.ch/
 
 Copyright by http://magdesign.ch
 
-Please support this project!
+Please support this project! http://www.pocketvj.com
