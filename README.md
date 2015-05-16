@@ -21,7 +21,7 @@ The imagefiles have to be stored in `/media/internal/images`
 We recommend to use your RPi as a Hotspot, setup as described here: http://elinux.org/RPI-Wireless-Hotspot
 
 ###To do list:
-read the roadmap: https://github.com/magdesign/PocketVJ-CP-v2/blob/master/roadmap.txt
+https://github.com/magdesign/PocketVJ-CP-v2/blob/master/roadmap.txt
 
 
 ###Dependencies to install:
