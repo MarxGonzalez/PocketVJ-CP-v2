@@ -92,13 +92,13 @@ Read the copyrights on their websites and make a donation!
 Copyright by http://magdesign.ch
 
 
-Firmware written by: Simon Josi, http://www.yokto.net
+Sync Script and Omxplayer fork written by: Simon Josi, http://www.yokto.net
 
 Pi-Mapper written by: Krisjanis Rijnieks, https://github.com/kr15h/
 
 Virtual Keyboard written by: Erwin van Dijk, http://www.fsays.eu/
 
-TCpSyphon written by: Nozomu Miura, http://techlife.sg/
+TCPSyphon written by: Nozomu Miura, http://techlife.sg/
 
 Testmovie by: Manuel Berner, http://towerbus.ch/
 
