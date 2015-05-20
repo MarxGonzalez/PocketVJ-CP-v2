@@ -78,6 +78,8 @@ apt-get -y install expect expect-dev
 
 apt-get -y install libreoffice
 
+apt-get -y install avahi-daemon
+
 apt-get -y install libavahi-compat-libdnssd-dev
 
 If you want to use PiMapper you must install openframeworks: http://forum.openframeworks.cc/t/raspberry-pi-2-setup-guide/18690
