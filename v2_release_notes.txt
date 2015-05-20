@@ -10,7 +10,7 @@ Control Panel v0.71 (14.Mai 2015)
 
 - added function to display current IP address
 - integrated TCPSClient (http://www.techlife.sg/)
-  (its beta, only use it if you can connect over RJ45!!)
+  (its beta, only use it if you can connect over RJ45!!, Wifi sometimes drops)
   needs some depencies: sudo apt-get install libavahi-compat-libdnssd-dev
   if you are upgrading from CP v0.7 without internet connection,
   drop me a mail, to get install instructions
