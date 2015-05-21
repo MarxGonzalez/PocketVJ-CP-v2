@@ -3,7 +3,9 @@
 ***  PocketVJ 2.0 Release Notes ***
 ***********************************
 
-
+Firmware 1.1 (20.Mai 2015)
+===========================
+- Sync script optimized for much faster reaction and frameprecise syncing
 
 Control Panel v0.71 (14.Mai 2015)
 ======================================
