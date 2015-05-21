@@ -4,8 +4,10 @@
 ***********************************
 
 Firmware 1.1 (20.Mai 2015)
+Control Panel v0.71
 ===========================
 - Sync script optimized for much faster reaction and frameprecise syncing
+ (just donwload CP0.71 again, install it and hit: 'Factory Preset')
 
 Control Panel v0.71 (14.Mai 2015)
 ======================================
