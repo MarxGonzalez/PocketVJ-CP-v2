@@ -3,8 +3,8 @@
 ***  PocketVJ 2.0 Roadmap       ***
 ***********************************
 
-- Make sync script to act faster at beginning of video
 - Make sync script compatible with video mapper
+- Add screenshot function (fbcat => make screenshots)
 - Fix Video Mapper input texture issue
 - Add bezier curves to mapping mesh (useful for ultra short throw projectors)
 - Remote mouse for mapping (browser, Java, anyone an idea?)
@@ -12,8 +12,7 @@
 - Automaticly convert incompatible movies
 - Master Slave auto-detection
 - Add pause function 
-- Add screenshot function (fbcat => make screenshots)
-- Integrate LPMT
+- Integrate LPMT (already tried it: https://github.com/Foaly/lpmt/issues/15)
 - Integrate RaspiVJ function for videomixing
 - OSC support
 - Artnet output for lightning control
@@ -21,7 +20,6 @@
 - Start all functions without reboot
 - Add new HD testfiles by Manuel Berner
  
-
 Copyright by magdesign.ch / pocketvj.com
 Firmware written by: Simon Josi, http://www.yokto.net
 Idea, support and concept by: Marc-André Gasser, magdesign.ch
