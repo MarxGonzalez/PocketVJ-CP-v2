@@ -19,6 +19,7 @@
 - Artnet output for lightning control
 - DMX Creator bridge
 - Start all functions without reboot
+- slow motion function
 - Add new HD testfiles by Manuel Berner
  
 Copyright by magdesign.ch / pocketvj.com
