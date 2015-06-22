@@ -8,6 +8,7 @@ Control Panel v0.72 (23.June 2015)
 ==================================
 - Fixed the conform all images function
 - added pause function
+- make factory preset after update to get pause working
 
 
 Control Panel v0.71
