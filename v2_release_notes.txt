@@ -3,6 +3,21 @@
 ***  PocketVJ 2.0 Release Notes ***
 ***********************************
 
+<<<<<<< Updated upstream
+=======
+Control Panel v0.72 (22.June 2015)
+==================================
+- Fixed the conform all images function
+- added pause function
+
+
+Control Panel v0.71
+===========================
+
+- Firmware 1.1 (20.Mai 2015) released
+- Sync script optimized for much faster reaction and frameprecise syncing
+ (just donwload CP0.71 again, install it and hit: 'Factory Preset')
+>>>>>>> Stashed changes
 
 Control Panel v0.71 (20.Mai 2015)
 ======================================

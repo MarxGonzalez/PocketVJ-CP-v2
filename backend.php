@@ -110,6 +110,12 @@ if ($_GET['action'] == 'startusb') {
 	$outputtext =  "start player in usb mode";	
 }
 
+if ($_GET['action'] == 'pause') {
+	exec("sudo /var/www/sync/pause.py");
+	$outputtext = "Pause, click again to resume";
+}
+
+
 //# Imageplayer
 
 if ($_GET['action'] == 'stopimage') {
@@ -410,6 +416,8 @@ if ($_GET['action'] == 'factoryreset') {
 	system("sudo cp /var/www/sync/omxplayer-sync /usr/bin/omxplayer-sync");
     system("sudo cp /var/www/sync/defaulthdmi /boot/config.txt");
     system("sudo cp /var/www/sync/rc.local.master /etc/rc.local"); 
+    system("sudo cp /var/www/sync/dbuscontrol.sh /usr/bin/dbuscontrol.sh"); 
+    system("sudo chmod +rx /usr/bin/dbuscontrol.sh");
 	system("sudo chmod 755 -R /var/www");
 	system("sudo chmod 777 -R /media");
 
