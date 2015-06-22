@@ -3,9 +3,8 @@
 ***  PocketVJ 2.0 Release Notes ***
 ***********************************
 
-<<<<<<< Updated upstream
-=======
-Control Panel v0.72 (22.June 2015)
+
+Control Panel v0.72 (23.June 2015)
 ==================================
 - Fixed the conform all images function
 - added pause function
