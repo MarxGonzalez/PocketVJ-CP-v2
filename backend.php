@@ -499,7 +499,7 @@ if ($_GET['action'] == 'imageconform') {
 	system("sudo rm /media/internal/images/*.bmp");
 	system("sudo rm /media/internal/images/*.gif");
 
-	system("sudo mogrify -resize 1920x1080\> /media/internal/images*.jpg");
+	system("sudo mogrify -resize 1920x1080\> /media/internal/images/*.jpg");
 	$outputtext =  "FINISHED! all images converted to jpg and resized to HD";
 }
 
