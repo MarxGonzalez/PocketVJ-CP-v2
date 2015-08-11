@@ -4,8 +4,6 @@
 ***********************************
 
 Important:
-- Fix CP update (does not work due an unzip bug in version 0.7 and above)
-   users must update fix via ssh
 - Integrate Pacman and Spaceinvaders
 
 To do next:
