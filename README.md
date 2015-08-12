@@ -90,6 +90,12 @@ If you want to use TCPSClient, downnload it here: http://techlife.sg/TCPSClient/
 put it to `/usr/bin` and make `chmod u+x TCPSClient.bin`
 Read the copyrights on their websites and make a donation!
 
+If you want to install the games:
+wget http://malus.exotica.org.uk/~buzz/pi/sdl/sdl1/deb/rpi1/libsdl1.2debian_1.2.15-8rpi_armhf.deb
+sudo dpkg -i libsdl1.2debian_1.2.15-8rpi_armhf.deb
+apt-get install ketm
+apt-get install tint
+
 
 
 Sync Script and Omxplayer fork written by: Simon Josi, http://www.yokto.net
