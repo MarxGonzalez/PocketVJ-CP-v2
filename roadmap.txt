@@ -7,6 +7,8 @@ Important:
 ...no important tasks...
 
 To do next:
+- add function to start into gaming mode: ketm (spacinvaders), tint (tetris)
+- install and test ofMesh mapping tool (https://github.com/quilime/of-meshMappingExample)
 - Update TCPS client to newes version (crop support)
 - Redesign mobilphone copmpatibility
 - Make sync script compatible with video mapper
