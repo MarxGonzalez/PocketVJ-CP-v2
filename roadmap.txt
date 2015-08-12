@@ -4,7 +4,7 @@
 ***********************************
 
 Important:
-- Integrate Pacman and Spaceinvaders
+...no important tasks...
 
 To do next:
 - Update TCPS client to newes version (crop support)
@@ -26,7 +26,7 @@ To do next:
 - Start all functions without reboot
 - Slow motion function (1 Increase Speed 2 Decrease Speed to dbus control)
 - Add fast forward function (dbuscontrol.sh seek, needs recompile of custom omxplayer)
-- Add new HD testfiles by Manuel Berner
+- Add new HD testfiles
  
 Copyright by magdesign.ch / pocketvj.com
 Firmware written by: Simon Josi, http://www.yokto.net
