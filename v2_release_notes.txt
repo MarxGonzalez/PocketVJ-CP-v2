@@ -6,6 +6,7 @@
 Control Panel v0.72a (11.August 2015)
 ===================================
 - Fixed CP update function, users with Version 0.7, 0.71, 0.72 must update via ssh
+- pre-installed tetris and spaceinvaders games
 
 
 
