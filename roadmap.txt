@@ -4,7 +4,8 @@
 ***********************************
 
 Important:
-...no important tasks...
+- adding manual slideshow control
+
 
 To do next:
 - add function to start into gaming mode: ketm (spacinvaders), tint (tetris)
