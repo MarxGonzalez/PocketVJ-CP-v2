@@ -1,10 +1,13 @@
-
 ***********************************
 ***  PocketVJ 2.0 Roadmap       ***
 ***********************************
 
 Important:
 - adding manual slideshow control
+<<<<<<< Updated upstream
+=======
+- add screenshot function (fbcat => make screenshots)
+>>>>>>> Stashed changes
 
 
 To do next:
@@ -34,4 +37,4 @@ To do next:
 Copyright by magdesign.ch / pocketvj.com
 Firmware written by: Simon Josi, http://www.yokto.net
 Idea, support and concept by: Marc-André Gasser, magdesign.ch
-Please support this project!
+Please support this project with a donation!

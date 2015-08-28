@@ -1,0 +1,10 @@
+#!/bin/expect
+
+spawn /opt/fsayskeyboard
+expect "background handler\r"
+
+send -- "KEY_PAGEUP"
+expect -exact "[PAGE UP]\n"
+
+send -- "KEY_PAGEUP"
+expect -exact "[PAGE UP]\n"

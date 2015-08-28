@@ -137,6 +137,34 @@ if ($_GET['action'] == 'imageusb') {
 	system("sudo /var/www/sync/startimageusb.py > /dev/null 2>&1 & echo $!");
 }
 
+//# Image player remote
+
+if ($_GET['action'] == 'setimagemanual') {
+	$outputtext =  "set to manual imageplayer";
+	system("sudo cp /var/www/sync/rc.local.imagemanual /etc/rc.local");
+}
+
+if ($_GET['action'] == 'imagemanual') {
+	$outputtext =  "start image player manual mode";
+	system("sudo killall fbi");
+	system("sudo /var/www/sync/omxkill.py");
+	system("sudo /var/www/sync/startimagemanual.py > /dev/null 2>&1 & echo $!");
+}
+
+if ($_GET['action'] == 'previmage') {
+	$outputtext =  "previous image";
+	system("sudo /var/www/sync/imagepagedown");
+	system("killall -9 /opt/fsayskeyboard");
+}
+
+if ($_GET['action'] == 'nextimage') {
+	$outputtext =  "next image";
+	system("sudo /var/www/sync/imagepageup");
+	system("killall -9 /opt/fsayskeyboard");
+}
+
+
+
 //# Testscreen
 
 if ($_GET['action'] == 'testscreen') {

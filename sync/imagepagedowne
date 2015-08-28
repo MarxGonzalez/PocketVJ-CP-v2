@@ -1,0 +1,10 @@
+#!/bin/expect
+
+spawn /opt/fsayskeyboard
+expect "background handler\r"
+
+send -- "KEY_PAGEDOWN"
+expect -exact "[PAGE DOWN]\n"
+
+send -- "KEY_PAGEDOWN"
+expect -exact "[PAGE DOWN]\n"
