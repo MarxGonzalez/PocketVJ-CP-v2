@@ -4,12 +4,10 @@
 
 Important:
 - adding manual slideshow control
-<<<<<<< Updated upstream
-=======
+- adding remote control support for logitech Logitech R400 presenter
 - add screenshot function (fbcat => make screenshots)
->>>>>>> Stashed changes
 
-
+====================================
 To do next:
 - add function to start into gaming mode: ketm (spacinvaders), tint (tetris)
 - install and test ofMesh mapping tool (https://github.com/quilime/of-meshMappingExample)
