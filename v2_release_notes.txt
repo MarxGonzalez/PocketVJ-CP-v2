@@ -3,12 +3,10 @@
 ***  PocketVJ 2.0 Release Notes ***
 ***********************************
 
-Control Panel v0.73 (29.August 2015)
-!!! untested yet...!!!
+Control Panel v0.73 (2.Sept 2015)
 ====================================
-- Added a manual slideshow function
+- Added a manual slideshow function (supports more image formats as well)
 - Added Autostart to gaming mode
-- Sketch for gamepad
 
 
 Control Panel v0.72a (11.August 2015)
