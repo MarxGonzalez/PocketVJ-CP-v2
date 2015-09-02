@@ -84,6 +84,8 @@ apt-get -y install libavahi-compat-libdnssd-dev
 
 apt-get -y install feh
 
+apt-get -y install libjpeg8 libjpeg8-dev
+
 If you want to use PiMapper you must install openframeworks: http://forum.openframeworks.cc/t/raspberry-pi-2-setup-guide/18690
 and then install and compile PiMapper https://github.com/kr15h/ofxPiMapper, then you have to simulate a fake keyboard to unleash the remote control, see here: 
 http://www.fsays.eu/Blogging/Blog/Details/23
@@ -100,10 +102,8 @@ apt-get install tint
 
 
 For using the snapshot function:
-apt-get install libjpeg8
-apt-get install libjpeg8-dev
-git-clone https://github.com/info-beamer/tools.git
 
+git-clone https://github.com/info-beamer/tools.git
 Go into tools/screenshot/ and type make
 
 
