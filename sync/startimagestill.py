@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo fbi -a -noverbose /media/internal/images/*.jpg &
+sudo fbi -T1 -a -noverbose /media/internal/images/*.jpg &

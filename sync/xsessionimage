@@ -1,0 +1,4 @@
+
+# start picture viewer in x
+
+feh -F -z -q --hide-pointer /media/internal/images/*
