@@ -4,21 +4,18 @@
 
 Important:
 - adding remote control support for logitech Logitech R400 presenter
-- add screenshot function (fbcat => make screenshots)
 
 ====================================
 To do next:
-- add function to start into gaming mode: ketm (spacinvaders), tint (tetris)
-- install and test ofMesh mapping tool (https://github.com/quilime/of-meshMappingExample)
+- Remote mouse for mapping (browser, Java, anyone an idea?)
+- add working function to start into gaming mode: ketm (spacinvaders), tint (tetris)
 - Update TCPS client to newes version (crop support)
-- Redesign mobilphone copmpatibility
+- Redesign mobilphone compatibility
 - Make sync script compatible with video mapper
-- Add screenshot function (fbcat => make screenshots)
 - Add a wirecast solution, airplay mirroring or similar
 - Fix Video Mapper input texture issue
 - Add bezier curves to mapping mesh (useful for ultra short throw projectors)
-- Remote mouse for mapping (browser, Java, anyone an idea?)
-- Release the P-Hat extension
+- Release the P-Hat extension, integrate code and schemas for extensions)
 - Automaticly convert incompatible movies
 - Master Slave auto-detection
 - Integrate LPMT (already tried it: https://github.com/Foaly/lpmt/issues/15)
