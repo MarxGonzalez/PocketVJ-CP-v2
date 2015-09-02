@@ -102,9 +102,9 @@ apt-get install tint
 
 
 For using the snapshot function:
-
 git-clone https://github.com/info-beamer/tools.git
 Go into tools/screenshot/ and type make
+then move the screenshot folder to /opt/
 
 
 Sync Script and Omxplayer fork written by: Simon Josi, http://www.yokto.net
