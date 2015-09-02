@@ -3,7 +3,6 @@
 ***********************************
 
 Important:
-- adding manual slideshow control
 - adding remote control support for logitech Logitech R400 presenter
 - add screenshot function (fbcat => make screenshots)
 
