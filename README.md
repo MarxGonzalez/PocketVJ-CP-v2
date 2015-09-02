@@ -99,6 +99,13 @@ apt-get install ketm
 apt-get install tint
 
 
+For using the snapshot function:
+apt-get install libjpeg8
+apt-get install libjpeg8-dev
+git-clone https://github.com/info-beamer/tools.git
+
+Go into tools/screenshot/ and type make
+
 
 Sync Script and Omxplayer fork written by: Simon Josi, http://www.yokto.net
 
