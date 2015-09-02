@@ -6,7 +6,7 @@
 Control Panel v0.73 (2.Sept 2015)
 ====================================
 - Added a manual slideshow function (needs: feh_2.3-2_armhf.deb, now supports more image formats)
-- Added Autostart to gaming mode
+- Added printscreen function (needs https://github.com/info-beamer/tools/tree/master/screenshot in /opt/screenshot)
 
 
 Control Panel v0.72a (11.August 2015)
