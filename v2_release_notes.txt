@@ -3,6 +3,18 @@
 ***  PocketVJ 2.0 Release Notes ***
 ***********************************
 
+
+Control Panel v0.8 (14.Sept 2015)
+====================================
+-Added AirPlay support
+-Removed the Game function (will come later on...)
+
+ (users who have cCP0.73 or lower must manually install rplay as described here: 
+ https://ssl.instructables.com/id/AirPlay-Mirroring-without-Apple-TV-using-RPi/)
+ After doing all the steps from this tutorial, remove /etc/init.d/rplay, then install
+ the CP update and Airplay should also work on your device)
+
+
 Control Panel v0.73 (2.Sept 2015)
 ====================================
 - Added a manual slideshow function (needs: feh_2.3-2_armhf.deb, now supports more image formats)

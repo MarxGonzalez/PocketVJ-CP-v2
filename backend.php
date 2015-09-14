@@ -272,12 +272,32 @@ if ($_GET['action'] == 'setgaming') {
 }
 
 
-
-
 if ($_GET['action'] == 'setsyphon') {
 	$outputtext =  "set to TCPSClient";
 	system("sudo cp /var/www/sync/rc.local.syphon /etc/rc.local");
 }
+
+if ($_GET['action'] == 'setairplay') {
+	$outputtext =  "set to Airplay Mirror";
+	system("sudo cp /var/www/sync/rc.local.airplay /etc/rc.local");
+	system("sudo rm /home/pi/.xsession");
+	
+
+}
+
+
+//# AirPlay support
+
+//restart airplay daemon:
+
+if ($_GET['action'] == 'airplayrestart') {
+	$outputtext =  "restart airplay service";
+	system("sudo /var/www/sync/rplay stop");
+	system("sudo /var/www/sync/rplay start");
+}
+
+//# Display IP
+
 
 if ($_GET['action'] == 'ipwifi') {
     $output = shell_exec("sudo /sbin/ifconfig -a wlan0 | awk '/(cast)/ { print $2 }' | cut -d':' -f2 | head -1");
@@ -290,6 +310,7 @@ if ($_GET['action'] == 'iplan') {
 	$preoutputtext =  "<pre>$output</pre>";
 	$outputtext = wordwrap($preoutputtext, 51, "<br />\n");
 }
+
 
 
 //# Set Boot.conf resolution

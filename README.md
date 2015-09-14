@@ -86,6 +86,10 @@ apt-get -y install feh
 
 apt-get -y install libjpeg8 libjpeg8-dev
 
+apt-get install libao-dev avahi-utils libavahi-compat-libdnssd-dev libva-dev youtube-dl
+
+wget -O rplay-1.0.1-armhf.deb http://www.vmlite.com/rplay/rplay-1.0.1-armhf.deb
+
 If you want to use PiMapper you must install openframeworks: http://forum.openframeworks.cc/t/raspberry-pi-2-setup-guide/18690
 and then install and compile PiMapper https://github.com/kr15h/ofxPiMapper, then you have to simulate a fake keyboard to unleash the remote control, see here: 
 http://www.fsays.eu/Blogging/Blog/Details/23
@@ -100,11 +104,14 @@ sudo dpkg -i libsdl1.2debian_1.2.15-8rpi_armhf.deb
 apt-get install ketm
 apt-get install tint
 
-
 For using the snapshot function:
 git-clone https://github.com/info-beamer/tools.git
 Go into tools/screenshot/ and type make
 then move the screenshot folder to /opt/
+
+For using the airplay function, install rplay as described here:
+http://www.instructables.com/id/AirPlay-Mirroring-without-Apple-TV-using-RPi/?ALLSTEPS)
+
 
 
 Sync Script and Omxplayer fork written by: Simon Josi, http://www.yokto.net

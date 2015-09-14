@@ -1,0 +1,10 @@
+mount -t auto /dev/sda1 /media/usb
+mount -t auto /dev/sda2 /media/usb
+cat /etc/motd; sleep 1
+service isc-dhcp-server restart
+sleep 2
+sudo /var/www/sync/rplay start &
+sleep 2
+su -l pi -c startx &
+
+exit 0
