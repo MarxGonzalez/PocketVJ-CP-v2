@@ -8,6 +8,8 @@ if ($_GET['action'] == 'stop') {
 	system("sudo /var/www/sync/testscreenoff.py &");
 	system("sudo killall -9 /home/pi/of_v0.8.4/addons/ofxPiMapper/example/./bin/example");
 	system("sudo killall -9 /usr/bin/TCPSClient.bin");
+	system("sudo /var/www/sync/rplay stop");
+
 
 }
 
