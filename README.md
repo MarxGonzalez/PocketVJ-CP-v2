@@ -112,6 +112,10 @@ then move the screenshot folder to /opt/
 For using the airplay function, install rplay as described here:
 http://www.instructables.com/id/AirPlay-Mirroring-without-Apple-TV-using-RPi/?ALLSTEPS)
 
+For using raspberry cast (https://github.com/vincent-lwt/RaspberryCast):
+wget https://raw.githubusercontent.com/vincent-lwt/RaspberryCast/master/setup.sh && sudo sh setup.sh
+
+
 
 
 Sync Script and Omxplayer fork written by: Simon Josi, http://www.yokto.net
