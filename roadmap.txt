@@ -3,13 +3,14 @@
 ***********************************
 
 Important:
-- adding remote control support for logitech R400 presenter
+- adding a screen recorder to record a TCPSyphon stream
 - changing slideshow imageplayer to feh (feh -F -z -q -x --hide-pointer -D 5 /media/internal/*) to support more file formats than .jpg only.
 - adapt slideshow features like slideshow time for feh
 - modify the conform function to start slideshow when finished
 - adding a function to check filenames, when there is a space, auto rename with _ , remove 'umlauts'
 =======================================================================
 To do next:
+- adding remote control support for logitech R400 presenter
 - Remote mouse for mapping (browser, Java, anyone an idea?)
 - add working function to start into gaming mode: ketm (spacinvaders), tint (tetris)
 - Update TCPS client to newes version (crop support)
