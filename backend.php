@@ -180,7 +180,7 @@ if ($_GET['action'] == 'testtone') {
 }
 
 
-
+//# USB Stick mount
 
 
 if ($_GET['action'] == 'reboot') {
@@ -283,10 +283,12 @@ if ($_GET['action'] == 'setairplay') {
 	$outputtext =  "set to Airplay Mirror";
 	system("sudo cp /var/www/sync/rc.local.airplay /etc/rc.local");
 	system("sudo rm /home/pi/.xsession");
-	
-
 }
 
+if ($_GET['action'] == 'setpicast') {
+	$outputtext =  "set to RaspberryCast Mirror";
+	system("sudo cp /var/www/sync/rc.local.picast /etc/rc.local");
+}
 
 //# AirPlay support
 
@@ -297,6 +299,17 @@ if ($_GET['action'] == 'airplayrestart') {
 	system("sudo /var/www/sync/rplay stop");
 	system("sudo /var/www/sync/rplay start");
 }
+
+//# RaspberryCast support
+
+//restart raspberrycast daemon:
+
+if ($_GET['action'] == 'picastrestart') {
+	$outputtext =  "restart raspberry cast service";
+	system("/home/pi/RaspberryCast/./RaspberryCast.sh stop");
+	system("/home/pi/RaspberryCast/./RaspberryCast.sh start");
+}
+
 
 //# Display IP
 
