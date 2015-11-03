@@ -3,6 +3,7 @@
 ***********************************
 
 Important:
+- adding RS232 power on/off projector scripts from Leonardo Scucchi
 - adding a screen recorder to record a TCPSyphon stream
 - changing slideshow imageplayer to feh (feh -F -z -q -x --hide-pointer -D 5 /media/internal/*) to support more file formats than .jpg only.
 - adapt slideshow features like slideshow time for feh
