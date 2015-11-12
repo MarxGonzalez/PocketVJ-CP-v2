@@ -11,4 +11,5 @@ hdmi_drive=2
 # uncomment to increase signal to HDMI
 #config_hdmi_boost=7
 
-gpu_mem=512gpu_mem=256
+gpu_mem=512
+max_usb_current=1

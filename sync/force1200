@@ -11,3 +11,4 @@ hdmi_drive=1
 config_hdmi_boost=7
 
 gpu_mem=512
+max_usb_current=1

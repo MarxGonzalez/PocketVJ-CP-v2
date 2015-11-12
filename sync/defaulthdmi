@@ -34,3 +34,4 @@ disable_splash=1
 
 # leave the gpu settings on 256
 gpu_mem=512
+max_usb_current=1

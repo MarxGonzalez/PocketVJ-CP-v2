@@ -49,3 +49,4 @@ hdmi_force_hotplug=1
 
 # for more options see http://elinux.org/RPi_config.txt
 gpu_mem=512
+max_usb_current=1

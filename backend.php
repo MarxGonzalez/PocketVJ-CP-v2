@@ -259,7 +259,7 @@ if ($_GET['action'] == 'setmapper') {
 if ($_GET['action'] == 'powerpoint') {
 	$outputtext =  "set to presentationmode";
 	system("sudo cp /var/www/sync/xsessionppt /home/pi/.xsession");
-	system("sudo cp /var/www/sync/rc.local.screenshare /etc/rc.local");
+	system("sudo cp /var/www/sync/rc.local.impress /etc/rc.local");
 }
 
 if ($_GET['action'] == 'setimagemanual') {
