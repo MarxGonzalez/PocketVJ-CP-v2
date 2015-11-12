@@ -8,6 +8,7 @@
 Control Panel v0.81 (12.Nov 2015)
 ====================================
 - Fixed a bug in Impress remot, its now working.
+- added the option in /boot/config.txt to get more current on the USB ports
 
 
 Control Panel v0.81 (17.Sept 2015)
