@@ -3,11 +3,18 @@
 ***  PocketVJ 2.0 Release Notes ***
 ***********************************
 
+Control Panel v0.83 (25.Nov 2015)
+=================================
+- Added a script to power on/off projector over network (original script works with Eiki/Sanyo LC-XT3)
+  you can edit the script for your projector in /var/www/script/beamer_on_off.sh and if you send me
+  your script I will publish
+- Added more buttons in extended playback control
+- updated tcps client (only for new orders)
 
 
-Control Panel v0.81 (12.Nov 2015)
+Control Panel v0.82 (12.Nov 2015)
 ====================================
-- Fixed a bug in Impress remot, its now working.
+- Fixed a bug in Impress remote, its now working.
 - added the option in /boot/config.txt to get more current on the USB ports
 
 
