@@ -126,6 +126,8 @@ Virtual Keyboard written by: Erwin van Dijk, http://www.fsays.eu/
 
 TCPSyphon written by: Nozomu Miura, http://techlife.sg/
 
+Projector Power Script by: Marco Schmalz
+
 Testmovie by: Manuel Berner, http://towerbus.ch/
 
 Testaudio by: Marcel Bieri, https://facebook.com/casashowband
