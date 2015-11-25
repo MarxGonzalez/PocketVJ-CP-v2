@@ -12,8 +12,8 @@
   <title>ControlPanel</title>
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="css/site_global.css?4052507572"/>
-  <link rel="stylesheet" type="text/css" href="css/master_a-master.css?4098032531"/>
-  <link rel="stylesheet" type="text/css" href="css/index.css?4071325342" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/master_a-master.css?4240662601"/>
+  <link rel="stylesheet" type="text/css" href="css/index.css?385712910" id="pagesheet"/>
   <!-- Other scripts -->
   <script type="text/javascript">
    document.documentElement.className += ' js';
@@ -24,7 +24,7 @@
   <div class="clearfix" id="page"><!-- column -->
    <div class="position_content" id="page_position_content">
     <div class="clearfix colelem" id="u75-4"><!-- content -->
-     <p>PocketVJ Control Panel v0.82</p>
+     <p>PocketVJ Control Panel v0.83</p>
     </div>
     <div class="colelem" id="u1824"><!-- custom html -->
      <table width="400" border="1" align="center">
@@ -193,10 +193,13 @@
        <a class="nonblock action nontext clip_frame colelem" id="u2165" href="?action=startmaster04"><!-- image --><img class="block" id="u2165_img" src="images/02_play04.png" alt="" width="160" height="40"/></a>
        <a class="nonblock action nontext clip_frame colelem" id="u2171" href="?action=startmaster05"><!-- image --><img class="block" id="u2171_img" src="images/02_play05.png" alt="" width="160" height="40"/></a>
        <a class="nonblock action nontext clip_frame colelem" id="u2177" href="?action=startmaster06"><!-- image --><img class="block" id="u2177_img" src="images/02_play06.png" alt="" width="160" height="40"/></a>
+       <a class="nonblock action nontext clip_frame colelem" id="u3425" href="?action=startmaster07"><!-- image --><img class="block" id="u3425_img" src="images/02_play07.png" alt="" width="160" height="40"/></a>
+       <a class="nonblock action nontext clip_frame colelem" id="u3431" href="?action=startmaster08"><!-- image --><img class="block" id="u3431_img" src="images/02_play08.png" alt="" width="160" height="40"/></a>
        <a class="nonblock action nontext clip_frame colelem" id="u2183" href="?action=startmasteronce01"><!-- image --><img class="block" id="u2183_img" src="images/02_play1s.png" alt="" width="160" height="40"/></a>
        <a class="nonblock action nontext clip_frame colelem" id="u2189" href="?action=startmasteronce02"><!-- image --><img class="block" id="u2189_img" src="images/02_play2s.png" alt="" width="160" height="40"/></a>
        <a class="nonblock action nontext clip_frame colelem" id="u2195" href="?action=startmasteronce03"><!-- image --><img class="block" id="u2195_img" src="images/02_play3s.png" alt="" width="160" height="40"/></a>
        <a class="nonblock action nontext clip_frame colelem" id="u2463" href="?action=startmasteronce04"><!-- image --><img class="block" id="u2463_img" src="images/02_play04s.png" alt="" width="160" height="40"/></a>
+       <a class="nonblock action nontext clip_frame colelem" id="u3419" href="?action=startmasteronce05"><!-- image --><img class="block" id="u3419_img" src="images/02_play05s.png" alt="" width="160" height="40"/></a>
        <div class="clearfix colelem" id="u2120-9"><!-- content -->
         <p>The videofile naming must start with 01*; 02 ; 03; etc.</p>
         <p>&nbsp;</p>
@@ -311,13 +314,21 @@
        <a class="nonblock action nontext clip_frame colelem" id="u3237" href="?action=ipwifi"><!-- image --><img class="block" id="u3237_img" src="images/22_ipwifi.png" alt="" width="160" height="40"/></a>
        <a class="nonblock action nontext clip_frame colelem" id="u3248" href="?action=iplan"><!-- image --><img class="block" id="u3248_img" src="images/22_iprj45.png" alt="" width="160" height="40"/></a>
        <div class="clearfix colelem" id="u1166-4"><!-- content -->
-        <p>Projector Info:</p>
+        <p>Projector:</p>
        </div>
-       <div class="clearfix colelem" id="pu1189"><!-- group -->
-        <a class="nonblock nontext clip_frame grpelem" id="u1189" href="http://192.168.2.254" target="_blank"><!-- image --><img class="block" id="u1189_img" src="images/24_projector.jpg" alt="" width="160" height="40"/></a>
-        <div class="clearfix grpelem" id="u1644-6"><!-- content -->
+       <div class="clearfix colelem" id="ppu1189"><!-- group -->
+        <div class="clearfix grpelem" id="pu1189"><!-- column -->
+         <a class="nonblock nontext clip_frame colelem" id="u1189" href="http://192.168.2.254" target="_blank"><!-- image --><img class="block" id="u1189_img" src="images/24_projector.jpg" alt="" width="160" height="40"/></a>
+         <div class="clearfix colelem" id="pu3407"><!-- group -->
+          <a class="nonblock action nontext clip_frame grpelem" id="u3407" href="?action=beameron"><!-- image --><img class="block" id="u3407_img" src="images/24_projectoron.png" alt="" width="80" height="40"/></a>
+          <a class="nonblock action nontext clip_frame grpelem" id="u3413" href="?action=beameroff"><!-- image --><img class="block" id="u3413_img" src="images/24_projectoroff.png" alt="" width="80" height="40"/></a>
+         </div>
+        </div>
+        <div class="clearfix grpelem" id="u1644-9"><!-- content -->
          <p>The IP of your</p>
          <p>projector must be: 192.168.2.254</p>
+         <p>&nbsp;</p>
+         <p>made for Eiki/Sanyo LC XT-3, RJ45</p>
         </div>
        </div>
        <div class="clearfix colelem" id="u3077-4"><!-- content -->
@@ -437,8 +448,7 @@ Muse.Utils.showWidgetsWhenReady();/* body */
 Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
 } catch(e) { if (e && 'function' == typeof e.notify) e.notify(); else Muse.Assert.fail('Error calling selector function:' + e); }});
 </script>
-
-   <script type="text/javascript">
+<script type="text/javascript">
    $("a.action").on("click", function(event) { 
        event.preventDefault();
        $.get( "backend.php" + $(this).attr('href'), function(data) {
@@ -446,5 +456,6 @@ Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
        });
    });
    </script>
+
    </body>
 </html>

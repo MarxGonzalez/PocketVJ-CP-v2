@@ -62,6 +62,20 @@ if ($_GET['action'] == 'startmaster06') {
 	$outputtext = "start video 06 loop";
 }
 
+if ($_GET['action'] == 'startmaster07') {
+	exec("sudo /var/www/sync/omxkill.py");
+	system("sudo /var/www/sync/testscreenoff.py &");
+	exec("sudo /var/www/sync/startmaster07.py");
+	$outputtext = "start video 07 loop";
+}
+
+if ($_GET['action'] == 'startmaster08') {
+	exec("sudo /var/www/sync/omxkill.py");
+	system("sudo /var/www/sync/testscreenoff.py &");
+	exec("sudo /var/www/sync/startmaster08.py");
+	$outputtext = "start video 08 loop";
+}
+
 
 if ($_GET['action'] == 'startmasteronce') {
 	exec("sudo /var/www/sync/omxkill.py");
@@ -97,6 +111,14 @@ if ($_GET['action'] == 'startmasteronce04') {
 	exec("sudo /var/www/sync/startmasterone04.py");
 	$outputtext = "start video 04 once";
 }
+
+if ($_GET['action'] == 'startmasteronce05') {
+	exec("sudo /var/www/sync/omxkill.py");
+	system("sudo /var/www/sync/testscreenoff.py &");
+	exec("sudo /var/www/sync/startmasterone05.py");
+	$outputtext = "start video 05 once";
+}
+
 
 if ($_GET['action'] == 'startslave') {
        exec("sudo /var/www/sync/omxkill.py");
@@ -563,6 +585,12 @@ if ($_GET['action'] == 'imageconform') {
 
 	system("sudo mogrify -resize 1920x1080\> /media/internal/images/*.jpg");
 	$outputtext =  "FINISHED! all images converted to jpg and resized to HD";
+	
+	system("sudo killall fbi");
+	system("sudo /var/www/sync/omxkill.py");
+	system("sudo /var/www/sync/startimage.py > /dev/null 2>&1 & echo $!");
+	$outputtext =  "starting image player";
+
 }
 
 //# Slideshow Time
@@ -747,6 +775,17 @@ if ($_GET['action'] == 'impressclose') {
 }
 
 
+//# Projector Control
+
+if ($_GET['action'] == 'beameron') {
+	$outputtext =  "Projector ON";
+	system("sudo /var/www/sync/beamer_on_off.sh --on");
+}
+
+if ($_GET['action'] == 'beameroff') {
+	$outputtext =  "Projector ON";
+	system("sudo /var/www/sync/beamer_on_off.sh --off");
+}
 
 
 
