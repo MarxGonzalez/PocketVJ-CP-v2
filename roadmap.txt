@@ -3,23 +3,18 @@
 ***********************************
 
 Important:
-- adding RS232 power on/off projector scripts from Leonardo Scucchi
+- adding pjlink support for power on /off projectors (http://blog.flowblok.id.au/2012-11/controlling-projectors-with-pjlink.html)
 - adding a screen recorder to record a TCPSyphon stream
 - changing slideshow imageplayer to feh (feh -F -z -q -x --hide-pointer -D 5 /media/internal/*) to support more file formats than .jpg only.
 - adapt slideshow features like slideshow time for feh
-- modify the conform function to start slideshow when finished
 - adding a function to check filenames, when there is a space, auto rename with _ , remove 'umlauts'
 =======================================================================
 To do next:
-- more manual movie controls 01_ 02_ 03_........
-- adding slidshow function which also plys movies
-- adding remote control support for logitech R400 presenter
+- adding slidshow function which also plays movies
 - Remote mouse for mapping (browser, Java, anyone an idea?)
 - add working function to start into gaming mode: ketm (spacinvaders), tint (tetris)
-- Update TCPS client to newes version (crop support)
 - Redesign mobilphone compatibility
 - Make sync script compatible with video mapper
-- Add a wirecast solution, airplay mirroring or similar
 - Fix Video Mapper input texture issue
 - Add bezier curves to mapping mesh (useful for ultra short throw projectors)
 - Release the P-Hat extension, integrate code and schemas for extensions)
