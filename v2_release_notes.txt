@@ -108,6 +108,7 @@ Firmware written by: Simon Josi, http://www.yokto.net
 Pi-Mapper written by: Krisjanis Rijnieks, https://github.com/kr15h/
 Virtual Keyboard written by: Erwin van Dijk, http://www.fsays.eu/
 Impress written by the LibreOffice community, https://www.libreoffice.org
+projector remote by: Marco Schmalz / Peter Ward, http://flowblok.id.au
 Testmovie by: Manuel Berner, http://towerbus.ch/
 Testaudio by: Marcel Bieri, https://facebook.com/casashowband
 
