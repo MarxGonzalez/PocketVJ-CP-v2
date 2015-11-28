@@ -2,17 +2,15 @@
 ***********************************
 ***  PocketVJ 2.0 Release Notes ***
 ***********************************
-coming soon, coding on it right now...
 
-Control Panel v0.84 (27.Nov 2015)
+Control Panel v0.84 (28.Nov 2015)
 =================================
 - Added support of the pjlink library to power on/off various projectors
+- made a function in Firmware/System to change from PJlink to Eiki
 
 customers with CP 0.83 or below need to install pjlink library:
 sudo easy_install --upgrade pip appdirs
 pip install pjlink
-
-.......
 
 
 Control Panel v0.83 (25.Nov 2015)
