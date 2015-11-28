@@ -499,6 +499,21 @@ if ($_GET['action'] == 'factoryreset') {
 
 }
 
+//# Set Projector Stuff
+
+if ($_GET['action'] == 'setpjlink') {
+	$outputtext =  "set to PJLINK network control";
+	system("sudo cp /var/www/sync/beamer_on_off_pjlink.sh /var/www/sync/beamer_on_off.sh");
+	system("sudo chmod 755 /var/www/sync/beamer_on_off.sh");
+}
+
+if ($_GET['action'] == 'seteiki') {
+	$outputtext =  "set to EIKI LC-XT3 network control";
+	system("sudo cp /var/www/sync/beamer_on_off_eiki.sh /var/www/sync/beamer_on_off.sh");
+	system("sudo chmod 755 /var/www/sync/beamer_on_off.sh");
+}
+
+
 //# Audio Volume
 
 if ($_GET['action'] == 'volume_up') {
