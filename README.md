@@ -90,6 +90,8 @@ apt-get install libao-dev avahi-utils libavahi-compat-libdnssd-dev libva-dev you
 
 wget -O rplay-1.0.1-armhf.deb http://www.vmlite.com/rplay/rplay-1.0.1-armhf.deb
 
+pip install pjlink
+
 If you want to use PiMapper you must install openframeworks: http://forum.openframeworks.cc/t/raspberry-pi-2-setup-guide/18690
 and then install and compile PiMapper https://github.com/kr15h/ofxPiMapper, then you have to simulate a fake keyboard to unleash the remote control, see here: 
 http://www.fsays.eu/Blogging/Blog/Details/23
