@@ -3,7 +3,7 @@
 ***********************************
 
 Important:
-- adding pjlink support for power on /off projectors (http://blog.flowblok.id.au/2012-11/controlling-projectors-with-pjlink.html)
+- odding an OSC wrapper for remote control
 - adding a screen recorder to record a TCPSyphon stream
 - changing slideshow imageplayer to feh (feh -F -z -q -x --hide-pointer -D 5 /media/internal/*) to support more file formats than .jpg only.
 - adapt slideshow features like slideshow time for feh
