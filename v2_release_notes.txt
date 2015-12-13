@@ -3,6 +3,12 @@
 ***  PocketVJ 2.0 Release Notes ***
 ***********************************
 
+
+Control Panel v0.84a (13.Dez 2015)
+=================================
+- fixed startmaster 02 script
+
+
 Control Panel v0.84 (28.Nov 2015)
 =================================
 - Added support of the pjlink library to power on/off various projectors
